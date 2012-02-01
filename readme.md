@@ -39,4 +39,6 @@ Will output:
   { field: 'location', message: 'Missing Field' } ]   // Not present in the params given
 ```
   
-Run the tests ```make test```
+Run the tests ```make test```  
+
+[![Build Status](https://secure.travis-ci.org/bradleyg/acceptance.png)](http://travis-ci.org/bradleyg/acceptance) 
