@@ -1,0 +1,22 @@
+{
+  "name": "acceptance",
+  "description": "Validate dynamic parameters against a predefined schema",
+  "keywords": ["schema", "validation", "parameters"],
+  "version": "0.1.0",
+  "author": "Bradley Griffiths <bradley.griffiths@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bradleyg/acceptance.git"
+  },
+  "main": "./index.js",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
+}
