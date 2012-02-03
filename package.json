@@ -1,7 +1,11 @@
 {
   "name": "acceptance",
   "description": "Validate dynamic parameters against a predefined schema",
-  "keywords": ["schema", "validation", "parameters"],
+  "keywords": [
+    "schema",
+    "validation",
+    "parameters"
+  ],
   "version": "0.1.0",
   "author": "Bradley Griffiths <bradley.griffiths@gmail.com>",
   "repository": {
@@ -10,6 +14,7 @@
   },
   "main": "./index.js",
   "devDependencies": {
+    "vows": "~0.6.0",
     "mocha": "*",
     "should": "*"
   },
@@ -18,5 +23,17 @@
   },
   "engines": {
     "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "moment": "*",
+    "async": "*",
+    "request": "*",
+    "prompt": "*",
+    "winston": "*",
+    "eyes": "*",
+    "optimist": "*",
+    "nconf": "*",
+    "semver": "*",
+    "pkginfo": "*"
   }
 }
