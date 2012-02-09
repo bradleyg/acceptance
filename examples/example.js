@@ -10,8 +10,7 @@ var schema = {
     validation: { regex: /^-?[0-9]+$/, message: 'Not a valid integer' }
   },
   location: {
-    required: true,
-    validation: false
+    required: true
   }
 }
 
